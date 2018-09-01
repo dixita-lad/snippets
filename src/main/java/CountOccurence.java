@@ -15,6 +15,6 @@ public class CountOccurence {
             }
         }
 
-        count.forEach((k,v) -> System.out.println(k + " : " + v));
+        count.forEach((k,v) -> System.out.println(k + " is listed " + v + " times"));
     }
 }
