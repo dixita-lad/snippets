@@ -11,8 +11,6 @@ public class FindIndices {
         System.out.println(Arrays.toString(result));
         int[] result2= twoSumSolution2(nums, target);
         System.out.println(Arrays.toString(result2));
-
-
     }
 
     public static int[] twoSumSolution1 ( int[] nums, int target){
