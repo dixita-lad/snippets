@@ -7,7 +7,7 @@ public class MostCommonWord {
         String[] charsToRemove = {",", "."};
 
         for(String c: charsToRemove) {
-            paragraph= paragraph.replace(c, "");
+            paragraph= paragraph.replaceAll(c, "");
         }
 
         String[] words= paragraph.toLowerCase().split(" ");
