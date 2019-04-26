@@ -16,5 +16,7 @@ public class FindDuplicate {
         for(int n: duplicates) {
             System.out.println("found duplicate element: " + n);
         }
+
+        set.stream().forEach(x -> System.out.println(x));
     }
 }
