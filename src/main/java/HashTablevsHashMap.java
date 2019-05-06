@@ -1,6 +1,5 @@
 import java.util.HashMap;
 import java.util.Hashtable;
-import java.util.Iterator;
 
 public class HashTablevsHashMap {
     public static void main(String[] args) {
@@ -12,6 +11,8 @@ public class HashTablevsHashMap {
 
         hashtable.forEach((k,v) -> System.out.println("key: " + k + " value: " + v));
 
+        System.out.println("size of hashtable: " + hashtable.size());
+
         HashMap<String, String> hashMap = new HashMap<>();
         hashMap.put("firstKey", "firstValue");
         hashMap.put(null, "secondValue");
@@ -20,5 +21,7 @@ public class HashTablevsHashMap {
         hashMap.put("ghi", "ghiValue");
 
         hashMap.forEach((k,v) -> System.out.println("key: " + k + " value: " + v));
+
+        System.out.println("size of hashMap: " + hashMap.size());
     }
 }
