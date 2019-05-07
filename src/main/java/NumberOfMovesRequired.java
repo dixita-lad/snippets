@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-//for array of int, return nuber of moves that need to be made to arange the list so all even numbers are in beginning and all odd are at the end
+//for array of int, return number of moves that need to be made to arrange the list so all even numbers are in beginning and all odd are at the end
 public class NumberOfMovesRequired {
     public static void main(String[] args) {
         int[] array= {2, 5, 4, 8, 9, 7, 5, 10, 6};
